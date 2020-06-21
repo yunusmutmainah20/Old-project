@@ -1,5 +1,7 @@
-
-
+/*@media max-width: 995px {
+	
+}
+*/
 
 body{
 	margin-left: 70px;
@@ -241,8 +243,8 @@ table h2 {
 	position: absolute;
 	width: 238px;
 	height: 59px;
-	left: 1050px;
-	top: 900px;
+	right: 50px;
+	bottom: 30px;
 	background: #084482;
 	border-radius: 5px;
 }
