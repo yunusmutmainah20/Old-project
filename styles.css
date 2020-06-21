@@ -1,22 +1,11 @@
-@media (max-width: 1024px) and (min-width: 300px){
-	h1, h2, h3, h4, h5, h6 {
-		font-family: "Poppins";
-		font-size: 18px;
-	}
-	.top-rectangle {
-		visibility: hidden;
-	}
-	.save-changes {
-		position: absolute;
-		right: 1rem;
-	}
+/*@media max-width: 995px {
+	
 }
-
+*/
 
 body{
-	width: 100%;
-	margin-left: 4.38rem;
-	margin-top: 2.5rem;
+	margin-left: 70px;
+	margin-top: 40px;
 	background-color: #f5f5f5;
 }
 
@@ -112,8 +101,8 @@ hr {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1rem;
-	line-height: 1,5rem;
+	font-size: 16px;
+	line-height: 24px;
 	/* identical to box height, or 150% */
 
 	display: flex;
@@ -132,8 +121,8 @@ hr {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 16px;
+	line-height: 24px;
 	/* identical to box height, or 150% */
 
 	display: flex;
@@ -159,15 +148,15 @@ img {
 
 .settings-h2 {
 	position: absolute;
-	width: 6.19rem;
-	height: 2.25rem;
-	left: 17.19rem;
-	top: 8.5rem;
+	width: 99px;
+	height: 36px;
+	left: 275px;
+	top: 136px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1.5rem;
-	line-height: 2.25rem;
+	font-size: 24px;
+	line-height: 36px;
 	color: #333333;
 }
 
@@ -177,11 +166,11 @@ img {
 .settings {
 	background-color: white;
 	position: absolute;
-	left: 17.19rem;
-	right: 2rem;
-	margin-bottom: 2.94rem;
-	top: 11.19rem;
-	height: 50.75rem;
+	left: 275px;
+	right: 32px;
+	margin-bottom: 47px;
+	top: 179px;
+	height: 812px;
 }
 
 	/*FIRST TABLE*/
@@ -190,13 +179,13 @@ table {
 	border: 0px;
 	border-collapse: collapse;
 	padding: 2rem;
-	width: 21.69rem;
+	width: 347px;
 	background-color: #f7f7f7;
 }
 
 td, th {
 	border: 1px solid blue;
-	padding: 0.625rem;
+	padding: 10px;
 }
 
 table h2 {
@@ -204,8 +193,8 @@ table h2 {
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 16px;
+	line-height: 24px;
 	display: inline-block;
 }
 
@@ -234,7 +223,7 @@ table h2 {
 .first-hr {
 	position: absolute;
 	background-color: blue;
-	width: 2.81rem;
+	width: 45px;
 	margin-top: 0;
 }
 
@@ -252,10 +241,10 @@ table h2 {
 .save-changes {
 	text-align: center;
 	position: absolute;
-	width: 14.88rem;
-	height: 3.69rem;
-	right: 1.94rem;
-	top: 42.13rem;
+	width: 238px;
+	height: 59px;
+	right: 50px;
+	bottom: 30px;
 	background: #084482;
 	border-radius: 5px;
 }
